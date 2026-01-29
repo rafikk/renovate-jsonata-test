@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "customManagers": [
+    {
+      "customType": "jsonata",
+      "fileFormat": "json",
+      "managerFilePatterns": ["multitool.lock.json"],
+      "matchStrings": [
+        "$map(*.binaries, function($v) { { 'packageName': $join($split($v.url, '/')[[3, 4]], '/'), 'currentValue': $split($v.url, '/')[7], 'currentDigest': $v.sha256 } })"
+      ],
+      "datasourceTemplate": "github-release-attachments"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "https://raw.githubusercontent.com/theoremlp/rules_multitool/main/lockfile.schema.json",
+  "aspect": {
+    "binaries": [
+      {
+        "kind": "file",
+        "url": "https://github.com/aspect-build/aspect-cli/releases/download/v2026.4.2/aspect-cli-aarch64-unknown-linux-musl",
+        "sha256": "a1f5735753a0417740ab13f69c3591c7e5ba08499e3654f8c8af031008ae8fb6",
+        "os": "linux",
+        "cpu": "arm64"
+      },
+      {
+        "kind": "file",
+        "url": "https://github.com/aspect-build/aspect-cli/releases/download/v2026.4.2/aspect-cli-x86_64-unknown-linux-musl",
+        "sha256": "58057a7bfb94838749cbb3fedc015baeefa1887caf00e1ed4dd5eb8ef00c6cef",
+        "os": "linux",
+        "cpu": "x86_64"
+      },
+      {
+        "kind": "file",
+        "url": "https://github.com/aspect-build/aspect-cli/releases/download/v2026.4.2/aspect-cli-aarch64-apple-darwin",
+        "sha256": "5cae50dcd8a2548ec433833a80d8e0ef3d41965c3673db700f8bbc52e5f15600",
+        "os": "macos",
+        "cpu": "arm64"
+      },
+      {
+        "kind": "file",
+        "url": "https://github.com/aspect-build/aspect-cli/releases/download/v2026.4.2/aspect-cli-x86_64-apple-darwin",
+        "sha256": "51173ac14cad639e281ed467b6db789b0a14d053b74cb5436d1b8b56e230d275",
+        "os": "macos",
+        "cpu": "x86_64"
+      }
+    ]
+  },
+  "ibazel": {
+    "binaries": [
+      {
+        "kind": "file",
+        "url": "https://github.com/bazelbuild/bazel-watcher/releases/download/v0.27.0/ibazel_linux_arm64",
+        "sha256": "c890c17287f81f0bbb4bf42a7484636ce581c5d71acc5e7446c9f7d106d71568",
+        "os": "linux",
+        "cpu": "arm64"
+      },
+      {
+        "kind": "file",
+        "url": "https://github.com/bazelbuild/bazel-watcher/releases/download/v0.27.0/ibazel_linux_amd64",
+        "sha256": "7f819e1876bb71cfced7c56ccdb2a0d85fe5b88c732da87a9c267de7f807df2c",
+        "os": "linux",
+        "cpu": "x86_64"
+      },
+      {
+        "kind": "file",
+        "url": "https://github.com/bazelbuild/bazel-watcher/releases/download/v0.27.0/ibazel_darwin_arm64",
+        "sha256": "6470a712ff0bfd0ebd046d6ef78b557fbf7dad91744c6e19dad82597f789e636e",
+        "os": "macos",
+        "cpu": "arm64"
+      },
+      {
+        "kind": "file",
+        "url": "https://github.com/bazelbuild/bazel-watcher/releases/download/v0.27.0/ibazel_darwin_amd64",
+        "sha256": "49135983b52efd5c1448921f7af488b0e9229777a1cda4f53fb1892e8640e104",
+        "os": "macos",
+        "cpu": "x86_64"
+      }
+    ]
+  },
+  "prettier": {
+    "binaries": [
+      {
+        "kind": "archive",
+        "url": "https://github.com/markelliot/prettier-standalone/releases/download/0.24.0/prettier-linux-arm64-0.24.0.tar.gz",
+        "file": "prettier",
+        "sha256": "a2aa42b8d4598966b72a432db61eb20464c30f252ae3a553e8d7bc51043bb1f8",
+        "os": "linux",
+        "cpu": "arm64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://github.com/markelliot/prettier-standalone/releases/download/0.24.0/prettier-linux-amd64-0.24.0.tar.gz",
+        "file": "prettier",
+        "sha256": "c6dbf2b828187315e70de1cfa50af5e4f0fc3395ff3a251058aa5e90c0411cb5",
+        "os": "linux",
+        "cpu": "x86_64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://github.com/markelliot/prettier-standalone/releases/download/0.24.0/prettier-darwin-arm64-0.24.0.tar.gz",
+        "file": "prettier",
+        "sha256": "be8484b4935caabd8adb5f8bf4ce7ff10f4f185d746806b125c283063271201e",
+        "os": "macos",
+        "cpu": "arm64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://github.com/markelliot/prettier-standalone/releases/download/0.24.0/prettier-darwin-amd64-0.24.0.tar.gz",
+        "file": "prettier",
+        "sha256": "355f233b4994dece5c7711dbb9c2961cd21c0c7b2f78446db5a3d5c31cd4d746",
+        "os": "macos",
+        "cpu": "x86_64"
+      }
+    ]
+  },
+  "starpls": {
+    "binaries": [
+      {
+        "kind": "archive",
+        "url": "https://github.com/withered-magic/starpls/releases/download/v0.1.22/starpls-linux-aarch64.tar.gz",
+        "file": "starpls",
+        "sha256": "8a1c249c1ad2ae42e253eb02fcb4952faf8dbb01188266e580af2080b8cdc98b",
+        "os": "linux",
+        "cpu": "arm64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://github.com/withered-magic/starpls/releases/download/v0.1.22/starpls-linux-amd64.tar.gz",
+        "file": "starpls",
+        "sha256": "7111cd5389bac480f05ee20adbc638337ebaa06f340f478501497b65112f897f",
+        "os": "linux",
+        "cpu": "x86_64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://github.com/withered-magic/starpls/releases/download/v0.1.22/starpls-darwin-arm64.tar.gz",
+        "file": "starpls",
+        "sha256": "15320c409f55f50ac052221a29eed269a3278ed67de7c5b2462f58bfae07a3fa",
+        "os": "macos",
+        "cpu": "arm64"
+      },
+      {
+        "kind": "archive",
+        "url": "https://github.com/withered-magic/starpls/releases/download/v0.1.22/starpls-darwin-amd64.tar.gz",
+        "file": "starpls",
+        "sha256": "5a939eadd7a4aebe30ae4a384b614ebdbfb51b4ef0baca74e46a741cdb5d2b4e",
+        "os": "macos",
+        "cpu": "x86_64"
+      }
+    ]
+  }
+}
