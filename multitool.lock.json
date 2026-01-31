@@ -51,14 +51,14 @@
       {
         "kind": "file",
         "url": "https://github.com/bazelbuild/bazel-watcher/releases/download/v0.27.0/ibazel_darwin_arm64",
-        "sha256": "6470a712ff0bfd0ebd046d6ef78b557fbf7dad91744c6e19dad82597f789e636e",
+        "sha256": "49135983b52efd5c1448921f7af488b0e9229777a1cda4f53fb1892e8640e104",
         "os": "macos",
         "cpu": "arm64"
       },
       {
         "kind": "file",
         "url": "https://github.com/bazelbuild/bazel-watcher/releases/download/v0.27.0/ibazel_darwin_amd64",
-        "sha256": "49135983b52efd5c1448921f7af488b0e9229777a1cda4f53fb1892e8640e104",
+        "sha256": "470a712ff0bfd0ebd046d6ef78b557fbf7dad91744c6e19dad82597f789e636e",
         "os": "macos",
         "cpu": "x86_64"
       }
